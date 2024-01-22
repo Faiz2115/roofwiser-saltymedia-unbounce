@@ -1,0 +1,8 @@
+<script>
+  $(".faq-head").click(function () {
+    $(".faq-head").not(this).removeClass("active");
+    $(this).toggleClass("active");
+    $(".faq-head").not(this).next(".faq-content").slideUp();
+    $(this).next(".faq-content").slideToggle();
+  });
+</script>

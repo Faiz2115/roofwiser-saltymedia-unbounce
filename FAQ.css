@@ -1,0 +1,109 @@
+  #height: auto;
+
+  .faq-content p {
+      margin: 0px;
+  }
+
+  .faq-content a:hover,
+  .faq-content a:active {
+      text-decoration: underline;
+      text-decoration-color: #a6a6a6;
+  }
+
+  .faq-head {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-left: 0px !important;
+      padding-top: 0px;
+      color: #444;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 32px;
+      /* 160% */
+      transition: all .5s ease-in-out;
+  }
+
+  .faq-head.active {
+      padding-bottom: 0px;
+  }
+
+  .faq-content {
+      display: none;
+  }
+
+  .faq-wrap {
+      box-shadow: 0px 9px 24.100000381469727px 0px #00000014;
+      margin: 0 10px 20px;
+      padding: 21px 23px 27px 28px;
+      border-radius: 5px;
+  }
+
+
+  .faq-content p {
+      padding-top: 12px;
+      color: #444;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      /* 175% */
+      width: 90%;
+  }
+
+
+  .faq-head.active:after {
+      content: url(https://user-assets-unbounce-com.s3.amazonaws.com/c76d178f-08ff-4057-a697-3a66a9d8e6fe/60260eb9-47b5-436d-92ed-f5e01ba6cfd6/up.original.svg);
+      right: 16px;
+      /* width: 25px;
+            height: 25px; */
+      margin-left: 20px;
+  }
+
+  .faq-head:after {
+      content: url(https://user-assets-unbounce-com.s3.amazonaws.com/c76d178f-08ff-4057-a697-3a66a9d8e6fe/5ea2cc4f-0961-40f6-9c5c-e2b80bde3ee7/down.original.svg);
+      right: 16px;
+      /* width: 25px;
+            height: 25px; */
+      margin-left: 20px;
+  }
+
+  @media (max-width: 767px) {
+      .faq-wrap {
+          margin: 0 0px 20px;
+          padding: 21px 15px 27px 15px;
+      }
+
+      .faq-content {
+
+          padding-top: 0px;
+          padding-right: 0px;
+      }
+
+      .faq-head {
+
+          border-radius: 4px;
+          font-size: 16px;
+          line-height: 28px;
+      }
+
+      .faq-content p {
+          font-size: 14px;
+          line-height: 25px;
+          padding-top: 12px;
+      }
+
+      .faq-head:after {
+          margin-left: 10px;
+          transform: scale(0.6) !important;
+      }
+
+      .faq-head.active:after {
+          transform: scale(0.6) rotate(180deg);
+      }
+  }

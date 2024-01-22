@@ -1,0 +1,8 @@
+<script>
+  $(document).ready(function () {
+    $("form .lp-pom-form-field label").text(function (i, text) {
+      if ("*" == text.slice(-1)) return text.slice(0, -2);
+      return text;
+    });
+  });
+</script>

@@ -1,0 +1,297 @@
+.text_white {
+    color: #ffffff !important;
+}
+
+#lp-pom-form-310 .option {
+    position: absolute;
+    margin-right: -5px;
+    margin-bottom: 10px;
+}
+
+#lp-code-17 {
+    overflow: visible;
+}
+
+.optionsList .option {
+    margin-bottom: 35px !important;
+    position: unset !important;
+    padding: 0px 5px 5px 0px !important;
+    flex-basis: 49%;
+    height: 27px !important;
+}
+
+.option input[type="radio"] {
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.optionsList label {
+    display: flex !important;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid #036EBD !important;
+    color: #1E1E1E;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #2B95FD !important;
+    position: relative;
+    background: #F4F8FC;
+}
+
+.optionsList label:after {
+
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-weight: 400;
+    text-rendering: auto;
+    font-size: 14px;
+    position: absolute;
+    right: 18px;
+    color: #fff;
+    background: #2B95FD !important;
+    -webkit-font-smoothing: antialiased;
+    top: 33%;
+}
+
+.optionsList label span {
+
+    color: #444 !important;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+.optionsList label:hover {
+    cursor: pointer;
+    background: #035A8C !important;
+    color: #fff !important;
+}
+
+.optionsList label:hover span {
+    color: #FFF !important;
+    cursor: pointer;
+}
+
+.optionsList label:hover:after {
+    background: #2B95FD !important;
+    color: #FFF !important;
+}
+
+.optionsList input[type="radio"]:checked+label {
+    border-radius: 4px;
+    border: 1px solid #035A8C !important;
+    background: #035A8C !important;
+    color: #FFF !important;
+
+}
+
+.optionsList input[type="radio"]:checked+label:after {
+    color: #FFF;
+}
+
+.optionsList input[type="radio"]:checked+label span {
+    color: #FFF !important;
+}
+
+.option input[type="radio"] {
+    opacity: 0 !important;
+}
+
+#label_what_type_of_project_is_this {
+    position: absolute;
+    top: 4px;
+}
+
+#label_how_old_is_your_current_roof {
+    position: absolute;
+    top: 4px;
+}
+
+#label__choose_the_appropriate_status_for_this_project {
+    position: absolute;
+    top: 4px;
+}
+
+div#container_what_type_of_project_is_this {
+    position: relative;
+    top: 10px;
+}
+
+div#container_how_old_is_your_current_roof {
+    position: relative;
+    top: 10px;
+}
+
+div#container_choose_the_appropriate_status_for_this_project {
+    top: 10px;
+}
+
+div#container_street {
+    top: 31px;
+}
+
+div#container_city {
+    top: 117px;
+}
+
+div#container_zip_code {
+    top: 197px;
+}
+
+div#container_first_name {
+    top: 40px;
+}
+
+div#container_last_name {
+    top: 135px;
+}
+
+div#container_phone {
+    top: 40px;
+}
+
+div#container_email {
+    top: 135px;
+}
+
+.progress-bar {
+    border-radius: 3px;
+    background: rgba(251, 188, 5, 0.27) !important;
+
+    margin-bottom: 20px;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+}
+
+.step {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    background: rgba(251, 188, 5, 0.27);
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    transition: background-color 0.3s ease;
+
+}
+
+.step.active {
+    border-radius: 3px;
+    background: #FBBC05;
+}
+
+.step span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #FBBC05;
+    color: #000;
+    font-weight: bold;
+}
+
+.step.active span {
+    background: #FBBC05;
+    color: #000;
+}
+
+.step:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.step.active~.step {
+    opacity: 0;
+}
+
+.step {
+    height: 10px;
+}
+
+.step {
+    width: 16.6%;
+    max-width: 16.6%;
+}
+
+h2.form-heading {
+    color: #444;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+@media only screen and (max-width:767.98px) {
+    #lp-pom-text-261 p span {
+        color: #fff !important;
+    }
+
+    #lp-pom-form-254 .lp-pom-form-field .lp-form-label {
+        color: #fff !important
+    }
+
+    #lp-pom-text-262 p span {
+        color: #fff !important;
+    }
+
+    #step-4-heading h2,
+    #step-5-heading h2,
+    #step-6-heading h2 {
+        color: #ffffff !important;
+    }
+
+    .optionsList .option {
+        flex-basis: 100%;
+    }
+
+    #lp-pom-form-310 .lp-pom-form-field .opt-label {
+        font-size: 16px !important;
+    }
+
+    .optionsList label {
+        padding-left: 0px !important;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 47px !important;
+    }
+
+    .optionsList .option {
+        padding: 5px 1px 5px 0px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .optionsList label span {
+        text-align: center;
+        font-family: Open sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+    }
+
+}

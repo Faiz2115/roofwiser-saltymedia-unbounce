@@ -1,0 +1,28 @@
+<script>
+  jQuery(document).ready(function () {
+    $("#clients_slider").slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: true,
+      draggable: true,
+      autoplay: true,
+      infinite: true,
+      autoplaySpeed: 2000,
+
+      responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 2000,
+            adaptiveHeight: true,
+            dots: false,
+            arrows: true,
+          },
+        },
+      ],
+    });
+  });
+</script>
